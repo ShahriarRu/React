@@ -1,0 +1,44 @@
+.nav-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(255, 255, 255);
+  z-index: 2;
+  width: 20rem;
+  height: 100vh;
+}
+.nav-items {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-link {
+  padding: 15px 10px;
+  padding-left: 1.5rem;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+.nav-link:hover {
+  background: rgb(223, 223, 238);
+}
+.nav-link a,
+.nav-link a:hover {
+  color: rgb(68, 65, 65);
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.head-text {
+  margin-left: 1.5rem;
+  padding-top: 2rem;
+}
+.nav-head {
+  color: white;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
