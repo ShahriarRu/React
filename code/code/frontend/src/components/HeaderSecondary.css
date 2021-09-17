@@ -1,0 +1,36 @@
+.header_sec {
+  background-color: #232f3e;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 4rem;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.nav__items {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  list-style: none;
+  font-size: 1.3rem;
+}
+.nav__link {
+  margin: 10px;
+  text-decoration: none;
+}
+.nav__link a:hover {
+  color: #ff8000;
+}
+.nav__link-icon {
+  display: flex;
+  align-items: center;
+}
+.nav__link-icon:hover {
+  cursor: pointer;
+  color: #ff8000;
+}
+a {
+  color: white;
+}
